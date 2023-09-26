@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:7000",
+  "proxy": "https://kuyiba-advice-api.onrender.com",
   "name": "my-advice",
   "version": "0.1.0",
   "private": true,
