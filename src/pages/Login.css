@@ -18,6 +18,8 @@ h3 {
 
 .login-form {
     margin: 8px;
+    display: flex;
+    flex-direction: column;
 
 }
 

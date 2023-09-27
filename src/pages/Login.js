@@ -43,9 +43,12 @@ const Login = () => {
         </button>
       </div>
       <span className="login-subtext">
-        Don't have an account? <Link to="/signup">Signup</Link>
+        Don't have an account?{" "}
+        <Link className="underline text-green-700" to="/signup">
+          Signup
+        </Link>
       </span>
-      {error && <div className="error">{error}</div>}
+      {error && <div className="error text-red-600">{error}</div>}
     </form>
   );
 };

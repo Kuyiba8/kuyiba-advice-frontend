@@ -21,7 +21,12 @@ const Navbar = () => {
           {user && (
             <div>
               <span>{user.email}</span>
-              <button onClick={handleClick}>Log out</button>
+              <button
+                className="m-1 border p-1.5 bg-white text-green-500 hover:bg-green-400 rounded-lg hover:text-white"
+                onClick={handleClick}
+              >
+                Log out
+              </button>
             </div>
           )}
           {!user && (
