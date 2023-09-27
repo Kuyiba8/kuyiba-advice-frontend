@@ -2,7 +2,7 @@ import Advice from "../pages/Advice.js";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-4/5">
       <Advice />
     </div>
   );

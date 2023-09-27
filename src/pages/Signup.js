@@ -20,30 +20,36 @@ const Signup = () => {
       <h3>Sign Up</h3>
 
       <div className="signup-form">
-        <label>Fullname:</label>
+        <label htmlFor="name">Fullname:</label>
         <input
           className="signup-input"
           type="name"
           onChange={(e) => setName(e.target.value)}
           value={name}
+          id="name"
+          autoComplete="on"
         />
       </div>
       <div className="signup-form">
-        <label>Email address:</label>
+        <label htmlFor="email">Email address:</label>
         <input
           className="signup-input"
           type="email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
+          id="email"
+          autoComplete="on"
         />
       </div>
       <div className="signup-form">
-        <label>Password:</label>
+        <label htmlFor="password">Password:</label>
         <input
           className="signup-input"
           type="password"
           onChange={(e) => setPassword(e.target.value)}
           value={password}
+          id="password"
+          autoComplete="on"
         />
       </div>
       <div className="btn-div">

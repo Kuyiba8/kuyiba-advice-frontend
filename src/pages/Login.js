@@ -19,21 +19,25 @@ const Login = () => {
       <h3>Log In</h3>
 
       <div className="login-form">
-        <label>Email address:</label>
+        <label htmlFor="email">Email address:</label>
         <input
           className="login-input"
           type="email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
+          id="email"
+          autoComplete="on"
         />
       </div>
       <div className="login-form">
-        <label>Password:</label>
+        <label htmlFor="password">Password:</label>
         <input
           className="login-input"
           type="password"
           onChange={(e) => setPassword(e.target.value)}
           value={password}
+          id="password"
+          autoComplete="on"
         />
       </div>
 
