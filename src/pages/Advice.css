@@ -37,12 +37,14 @@
     margin: 12px;
     border-radius: 30%;
     padding: 12px;
-}
-
-.advice-text-button:hover {
     background-color: green;
     color: white;
 }
+
+/* .advice-text-button:hover {
+    background-color: green;
+    color: white;
+} */
 
 
 
